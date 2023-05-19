@@ -7,25 +7,27 @@ body {
     margin-top: 2.5%;
     left: 32.5%;
     height: 10%;
+    
 }
 
 #board {
     position: absolute;
     margin-top: 2.5%;
     left: 20%;
-    top: 45%
+    top: 45%;
+
+
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.logo {
-    float: left;
-    font-size: 65px;
-    margin-right: 72.5%;
-    margin-top: 2.5%
+    .logo {
+        float: left;
+        font-size: 65px;
+        margin-right: 72.5%;
+        margin-top: 2.5%;
+    }
 }
-
