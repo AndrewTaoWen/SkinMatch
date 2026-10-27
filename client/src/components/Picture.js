@@ -10,10 +10,11 @@ function Picture({ id, url }) {
         })
     }))
     return (
-        <img 
+        <img
         ref ={drag}
-        src={url} 
-        width="150px" 
+        src={url}
+        alt={`Product ${id}`}
+        width="150px"
         style={{ border: isDragging ? "5px solid pink" : "0px" }} />
     )
 }
